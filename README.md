@@ -15,7 +15,7 @@ a. npm install react-bootstrap
 b. npm install react-qr-reader
 c. npm install react-tabs
 d. npm install web3
-4. In case of any error, we have also submitted the node_modules folder. Simply navigating to the FrontEnd_App folder and running npm install will update and install the required dependencies. This folder will now be the project folder for the react application.
+4. Simply navigating to the FrontEnd_App folder and running npm install will update and install the required dependencies. This folder will now be the project folder for the react application.
 5. Web3 will still need to be installed manually even if npm install has been used. Run npm install web3
 6. After deploying the contract, using the command truffle migrate –reset, the contract address in the config.js found in the src folder needs to be updated to the address it has been deployed upon in line 2.
 7. In order to start the application, run the command npm start from the directory of the react application.
